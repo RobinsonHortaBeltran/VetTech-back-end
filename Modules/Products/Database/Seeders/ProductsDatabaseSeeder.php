@@ -39,7 +39,7 @@ class ProductsDatabaseSeeder extends Seeder
         ];
 
         foreach ($products as $product) {
-            Products::create($products);
+            Products::create($product);
         }
 
         // $this->call("OthersTableSeeder");
