@@ -18,7 +18,10 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
 
-            # En: Code of product
+
+
+            
+            # En: Code of product 
             # Es: Codigo del producto
             $table->string('code')
                 ->comment('Codigo del producto');
